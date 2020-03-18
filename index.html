@@ -3,10 +3,213 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     <title>Hot Gadgets</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<div class="container top">
+    <div class="brand-image">
+        <a class="image" href="#">
+            <img src="images/logo.png" alt="">
+        </a>
+    </div>
+    <div class="brand-image navigation">
+        <ul class="nav justify-content-end">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Product</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+</div>
+<div class="container">
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+              <div class="row align-items-center">
+                  <div class="col-md-5">
+                    <h2>Mackbook Pro</h2><br>
+                    <p>The MacBook Pro is a line of Macintosh portable computers introduced in January 2006, by Apple Inc. It is the higher-end model of the MacBook family</p><br>                    <button class="buy-now-button">Buy Now →</button>
+                  </div>
+                  <div class="col-md-7">
+                    <img src="images/banner-products/product-1.png" class="d-block w-100" alt="...">
+                  </div>
+                     
+                    
+                </div>
+          </div>
+          <div class="carousel-item">
+            <div class="row align-items-center">    
+                <div class="col-md-5">
+                    <h2>Google Home Mini</h2><br>
+                    <p>Google Home Mini is Google Assistant anywhere you want it. Ask it questions. Tell it to do things. It's your own Google, always ready to help.</p><br>
+                     <button class="buy-now-button">Buy Now →</button>
+  
+                </div>
+                <div class="col-md-7">
+                  <img src="images/banner-products/slider-1.png" class="d-block w-100" alt="...">
+                </div>
+              
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+              <div class="row align-items-center">
+                  <div class="col-md-5">
+                      <h2>JBL Soundbox</h2><br>
+                      <p>The JBL PRX835 is a full-range speaker designed for main system applications.Connected plug-and-play operation control your entire live sound system with one app.</p><br>
+
+                      <button class="buy-now-button">Buy Now →</button>
+
+                  </div>
+                  <div class="col-md-7">
+                    <img src="images/banner-products/slider-3.png" class="d-block w-100" alt="...">
+
+                  </div>
+
+              </div>
+            
+          </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+      </div>
+</div>
+<div class="container phone">
+    <div class="d-flex justify-content-between see">
+        <h3>Smartphone</h3>
+        <h5 style="color: darkorange;font-weight: bold;">See all</h5>
+    </div>
     
+    <div class="card-deck">
+        <div class="card">
+          <img src="images/phone/phone-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Redmi note</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional. </p><br>
+            <h3>$699</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">iPhone 11Pro</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p><br>
+            <h3>$999</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/phone/phone-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h5 class="card-title">Samsung Galaxy10</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to add.</p><br>
+                <h3>$799</h3>
+          </div>
+          <div class="card-footer">
+             <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+</div>
+<div class="container laptop">
+    <div class="d-flex justify-content-between see">
+        <h3>Laptop</h3>
+        <h5 style="color: darkorange;font-weight: bold;">See all</h5>
+    </div>
+    
+    <div class="card-deck">
+        <div class="card">
+          <img src="images/laptop/product-1.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">ASUS Vivobook</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional </p><br>
+            <h3>$999</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/laptop/product-2.png" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h5 class="card-title">Razer Blade 15</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p><br>
+            <h3>$2799</h3>
+          </div>
+          <div class="card-footer">
+            <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+        <div class="card">
+          <img src="images/laptop/product-3.png" class="card-img-top" alt="...">
+          <div class="card-body">
+                <h5 class="card-title">Xiaomi Mi Notebook</h5>
+                <p class="card-text">This is a wider card with supporting text below as a natural lead-in to.</p><br>
+                <h3>$1999</h3>
+          </div>
+          <div class="card-footer">
+             <button class="buy-now-button">Buy Now →</button>
+          </div>
+        </div>
+      </div>
+
+</div>
+<div class="container categories">
+        <div class="d-flex justify-content-center">
+            <h3>categories</h3>
+        </div>
+        <div class="row align-items-center">
+            <div class="col-md-3">
+                <img src="images/Categories/bag.png" alt=""><br>
+                <h6>Bag</h6>
+            </div>
+            <div class="col-md-3 justify-content-center">
+                <div>
+                    <img src="images/Categories/perfume.png" alt="">
+                    <h6>Beauty</h6>
+                </div>
+                <div>
+                    <img src="images/Categories/shoe.png" alt="">
+                    <h6>Shoe</h6>
+                </div>
+                
+            </div>
+            <div class="col-md-6">
+                <img src="images/Categories/pale-order.png" alt="">
+            </div>
+        </div>
+    
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 </body>
 </html>
